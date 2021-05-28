@@ -1,0 +1,42 @@
+#header-top {
+  background-color: white;
+}
+
+#header-top ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#header-top ul li {
+  float: right;
+  margin-left: 2rem;
+}
+
+#categoryMenu {
+  list-style-type: none;
+}
+
+#categoryMenu a {
+  color: black;
+  text-decoration: none;
+}
+
+#carouselExampleIndicators {}
+
+.carousel-item {
+  max-height: 50vh;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-item .form-inline input {
+    width: 40rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-item .form-inline input {
+    max-width: 100%;
+  }
+}
